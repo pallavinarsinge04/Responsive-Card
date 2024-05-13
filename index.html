@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <style>
+     @media screen and (min-width: 600px) and (max-width: 768px) {
+      .card
+        {
+          justify-content: start;
+         
+        }
+       
+      }
+
+      /* Tablet Devices */
+
+      @media screen and (min-width: 769px) and (max-width: 992px) {
+        .card
+        {
+          justify-content: start;
+         
+        }
+        
+        
+      }
+
+      /* Dekstop device */
+
+      @media screen and (min-width: 993px) and (max-width: 1200px) {
+        .card
+        {
+          justify-content: start;
+          margin-left: 100px;
+      margin-top: 50px;
+        }
+        
+      }
+    .parent -container
+    {
+      flex: wrap;
+      
+    }
+    .a {
+      background-color:#FF0080;
+    }
+
+    .b {
+      background-color: aquamarine;
+    }
+
+    .c {
+      background-color:#FFFF80;
+      
+    }
+
+    .card {
+      height: 300px;
+      margin: 10px;
+      padding: 20px;
+      border-radius: 10px;
+      display: inline-block;
+      width: 150px;
+      text-align: center;
+      
+    }
+    img
+    {
+        height: 80px;
+        width: 60px;
+        
+    }
+    
+  </style>
+
+  <body>
+    <div class="parent -container">
+    <div class="a card">This is Watch card<br/><br/>
+        <img src="watch.jpeg"><br/><br/>
+       <b> Watch</b><br/><br/>
+       <i>Explore our exclusive men's watch collection featuring a wide range of stylish ,functional .</i><br/><br/>
+       <p>Add To Card</p>
+    </div>
+    <div class="b card">This is Jewellery card<br/><br/>
+        <img src="jewellery.jpg"><br/><br/>
+        <b>Jewellery </b><br/><br/>
+        <i> Discover our range of exquisite luxury and fine jewellery for men and women.</i><br/><br/>
+        <p>Add To Card</p>
+    </div>
+    <div class="c card">This is T-Shirt card<br/><br/>
+        <img src="tshirt.jpg"><br/><br/>
+       <b> T-Shirt</b><br/><br/>
+       <i>Discover the best quality and comfortable tshirts and buy tshirts now.</i><br/><br/>
+       <p>Add To Card</p>
+    </div>
+    </div>
+  </body>
+</html>
